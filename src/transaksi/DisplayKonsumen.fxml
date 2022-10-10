@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transaksi.DisplayKonsumenController">
+   <children>
+      <TableView fx:id="tbvkonsumen" layoutX="59.0" layoutY="47.0" prefHeight="200.0" prefWidth="486.0">
+         <columns>
+           <TableColumn prefWidth="75.0" text="C1" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnawal" layoutX="59.0" layoutY="290.0" mnemonicParsing="false" onAction="#awalklik" prefHeight="25.0" prefWidth="80.0" text="Awal" />
+      <Button fx:id="btnsebelum" layoutX="192.0" layoutY="290.0" mnemonicParsing="false" onAction="#sebelumklik" prefHeight="25.0" prefWidth="80.0" text="Sebelum" />
+      <Button fx:id="btnsesudah" layoutX="323.0" layoutY="290.0" mnemonicParsing="false" onAction="#sesudahklik" prefHeight="25.0" prefWidth="80.0" text="Sesudah" />
+      <Button fx:id="btnakhir" layoutX="465.0" layoutY="290.0" mnemonicParsing="false" onAction="#akhirklik" prefHeight="25.0" prefWidth="80.0" text="Akhir" />
+      <Button fx:id="btntambah" layoutX="59.0" layoutY="326.0" mnemonicParsing="false" onAction="#tambahklik" prefHeight="25.0" prefWidth="80.0" text="Tambah" />
+      <Button fx:id="btnhapus" layoutX="192.0" layoutY="326.0" mnemonicParsing="false" onAction="#hapusklik" prefHeight="25.0" prefWidth="80.0" text="Hapus" />
+      <Button fx:id="btnubah" layoutX="323.0" layoutY="326.0" mnemonicParsing="false" onAction="#ubahklik" prefHeight="25.0" prefWidth="80.0" text="Ubah" />
+      <Button fx:id="btnkeluar" layoutX="465.0" layoutY="326.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="25.0" prefWidth="80.0" text="Keluar" />
+   </children>
+</AnchorPane>
